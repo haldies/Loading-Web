@@ -1,3 +1,7 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
 #loading-video {
     position: fixed;
     top: 0;
@@ -11,9 +15,29 @@
 }
 
 #btn-esc{
+    border-radius: 6px;
     border: #fff 1px solid;
+    width: 30px;
+    height: 50px;
+    padding: 10px;
+    
+
+}
+@keyframes blinking {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
 }
 
+.blinking-text {
+  animation: blinking 1.5s infinite;
+}
 #ClickToEnter{
     position: absolute;
     color: #fff;

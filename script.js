@@ -4,6 +4,7 @@ document.addEventListener("DOMContentLoaded", function() {
     var skipButton = document.getElementById("skip-button");
     var content = document.getElementById("content");
     var clickToEnter = document.getElementById("ClickToEnter");
+    var animatedBox = document.getElementById("animated-box");
 
     clickToEnter.addEventListener("click", function() {
         video.style.display = "block";
