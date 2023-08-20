@@ -11,6 +11,11 @@ document.addEventListener("DOMContentLoaded", function() {
         clickToEnter.style.display = "none";
         skipButton.style.display = "block";
     });
+     video.addEventListener("ended", function() {
+        video.style.display = "none";
+        loadingVideo.style.display = "none";
+
+    });
 
     document.addEventListener("keydown", function(event) {
         if (event.keyCode === 27) {
