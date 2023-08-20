@@ -4,7 +4,7 @@ document.addEventListener("DOMContentLoaded", function() {
     var skipButton = document.getElementById("skip-button");
     var content = document.getElementById("content");
     var clickToEnter = document.getElementById("ClickToEnter");
-    var animatedBox = document.getElementById("animated-box");
+    
 
     clickToEnter.addEventListener("click", function() {
         video.style.display = "block";
@@ -14,14 +14,19 @@ document.addEventListener("DOMContentLoaded", function() {
     });
      video.addEventListener("ended", function() {
         video.style.display = "none";
+        content.style.display = "block";
         loadingVideo.style.display = "none";
+        window.location.href = "https://www.jeetxtoken.com";
 
     });
 
     document.addEventListener("keydown", function(event) {
         if (event.keyCode === 27) {
             loadingVideo.style.display = "none";
+            content.style.display = "flex";
             video.style.display = "none";
+            window.location.href = "https://www.jeetxtoken.com";
         }
     });
+    
 });
