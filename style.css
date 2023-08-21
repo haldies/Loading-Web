@@ -1,13 +1,10 @@
 * {
-  padding: 0px;
-  margin: 0px;
   font-size: 24px;
 }
 
 html {
   scroll-behavior: smooth;
 }
-
 .bg-image {
   position: fixed;
   top: 0;
@@ -169,7 +166,7 @@ section {
 
 }
 
-.img-A:hover{
+.img-xs:hover{
   scale: 1.2;
 
 }
@@ -245,23 +242,17 @@ section {
   border: #E9799E 5px solid;
 }
 
-@media screen and (min-width: 468px) {
-  body{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-  }
+@media screen and (min-width: 768px) {
   .img-m {
-    max-width: 70%;
+    max-width: 80%;
     height: auto;
   }
 
   .img-s {
-    max-width: 30%;
+    max-width: 70%;
   }
 
-  .img-xs , .img-A {
+  .img-xs {
     max-width: 50%;
     height: auto;
   }
@@ -277,48 +268,48 @@ section {
 
   .container-home {
     max-height: 800px;
-    max-width: 80%;
+    max-width: 100%;
   }
 
   .container-roadmap {
-    max-width: 80%;
+    max-width: 100%;
 
   }
 
   .container-whitepaper {
-    max-width: 80%;
+    max-width: 100%;
 
   }
 
   .container-tokenomics {
-    max-width: 80%;
+    max-width: 100%;
 
   }
 
   .container-sosials {
-    max-width: 80%;
+    max-width: 100%;
 
   }
 
   .home {
-    height: 625px;
+    max-height: 625px;
   }
 
   .roadmap {
-    height: 825px;
+    max-height: 825px;
   }
 
   .whitepaper {
-    height: 825px;
+    max-height: 825px;
   }
 
   .tokenomics {
-    height: 825px;
+    max-height: 825px;
 
   }
 
   .sosials {
-    height: 825px;
+    max-height: 825px;
 
   }
 
