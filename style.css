@@ -116,7 +116,7 @@ html {
   justify-content: center;
   align-items: center;
   color: #ffffff;
-  display: none;
+  /* display: none; */
   flex-direction: column;
 
 }
@@ -140,7 +140,7 @@ section {
   justify-content: center;
   flex-direction: column;
   align-items: center;
-  display: none;
+  /* display: none; */
 
 
 }
@@ -167,7 +167,7 @@ section {
 
 }
 
-.img-xs:hover{
+.img-A:hover{
   scale: 1.2;
 
 }
@@ -245,18 +245,21 @@ section {
 
 @media screen and (max-width: 468px) {
   body{
-    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
   }
   .img-m {
-    max-width: 80%;
+    max-width: 70%;
     height: auto;
   }
 
   .img-s {
-    max-width: 70%;
+    max-width: 30%;
   }
 
-  .img-xs {
+  .img-xs , .img-A {
     max-width: 50%;
     height: auto;
   }
@@ -272,26 +275,26 @@ section {
 
   .container-home {
     max-height: 800px;
-    max-width: 100%;
+    max-width: 33%;
   }
 
   .container-roadmap {
-    max-width: 100%;
+    max-width: 33%;
 
   }
 
   .container-whitepaper {
-    max-width: 100%;
+    max-width: 33%;
 
   }
 
   .container-tokenomics {
-    max-width: 100%;
+    max-width: 33%;
 
   }
 
   .container-sosials {
-    max-width: 100%;
+    max-width: 33%;
 
   }
 
