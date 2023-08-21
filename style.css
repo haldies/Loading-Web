@@ -5,6 +5,10 @@
 html {
   scroll-behavior: smooth;
 }
+.img-xs{
+  width: 100%;
+  height: 100%;
+}
 .bg-image {
   position: fixed;
   top: 0;
@@ -291,26 +295,9 @@ section {
 
   }
 
-  .home {
-    height: 925px;
-  }
-
-  .roadmap {
-    height: 825px;
-  }
-
-  .whitepaper {
-    height: 825px;
-  }
-
-  .tokenomics {
-    height: 925px;
-
-  }
-
-  .sosials {
-    height: 825px;
-
+  .home ,.roadmap , .whitepaper 
+  .tokenomics , .sosials   {
+    height: auto;
   }
 
 }
