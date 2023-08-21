@@ -11,8 +11,6 @@ document.addEventListener("DOMContentLoaded", function () {
     var contentTokenomics = document.getElementById("tokenomics");
 
 
-
-
     clickToEnter.addEventListener("click", function () {
         video.style.display = "block";
         video.play();
