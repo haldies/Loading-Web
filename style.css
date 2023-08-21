@@ -1,4 +1,6 @@
 * {
+  padding: 0px;
+  margin: 0px;
   font-size: 24px;
 }
 
@@ -243,7 +245,7 @@ section {
   border: #E9799E 5px solid;
 }
 
-@media screen and (max-width: 468px) {
+@media screen and (min-width: 468px) {
   body{
     display: flex;
     justify-content: center;
