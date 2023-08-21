@@ -169,6 +169,11 @@ section {
 
 }
 
+.img-xs:hover{
+  scale: 1.2;
+
+}
+
 .menu-home {
   width: 1120px;
   height: 100px;
@@ -305,5 +310,5 @@ section {
     max-height: 825px;
 
   }
-  
+
 }
