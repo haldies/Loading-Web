@@ -14,9 +14,9 @@ document.addEventListener("DOMContentLoaded", function() {
     });
      video.addEventListener("ended", function() {
         video.style.display = "none";
-        content.style.display = "block";
+        content.style.display = "flex";
         loadingVideo.style.display = "none";
-        window.location.href = "https://www.jeetxtoken.com";
+        
 
     });
 
@@ -25,7 +25,7 @@ document.addEventListener("DOMContentLoaded", function() {
             loadingVideo.style.display = "none";
             content.style.display = "flex";
             video.style.display = "none";
-            window.location.href = "https://www.jeetxtoken.com";
+           
         }
     });
     
