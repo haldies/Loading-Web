@@ -1,14 +1,18 @@
 * {
+  padding: 0px;
+  margin: 0px;
   font-size: 24px;
 }
 
 html {
   scroll-behavior: smooth;
 }
-.img-xs{
+
+.img-xs {
   width: 100%;
   height: 100%;
 }
+
 .bg-image {
   position: fixed;
   top: 0;
@@ -170,7 +174,7 @@ section {
 
 }
 
-.img-A:hover{
+.img-A:hover {
   scale: 1.2;
 
 }
@@ -256,7 +260,8 @@ section {
     max-width: 70%;
   }
 
-  .img-xs , img-A{
+  .img-xs,
+  .img-A {
     max-width: 50%;
     height: auto;
   }
@@ -264,7 +269,8 @@ section {
   .menu-home {
     max-width: 100%;
   }
-  .container-main{
+
+  .container-main {
     max-width: 100%;
 
 
@@ -287,6 +293,7 @@ section {
 
   .container-tokenomics {
     max-width: 100%;
+    height: 90%;
 
   }
 
@@ -295,9 +302,10 @@ section {
 
   }
 
-  .home ,.roadmap , .whitepaper 
-  .tokenomics , .sosials   {
+  .home,
+  .roadmap,
+  .whitepaper .tokenomics,
+  .sosials {
     height: auto;
   }
-
 }
