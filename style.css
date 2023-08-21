@@ -7,9 +7,6 @@
 html {
   scroll-behavior: smooth;
 }
-body{
-  overflow-x: hidden;
-}
 
 .bg-image {
   position: fixed;
@@ -248,7 +245,7 @@ section {
   border: #E9799E 5px solid;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 468px) {
   .img-m {
     max-width: 80%;
     height: auto;
@@ -265,6 +262,10 @@ section {
 
   .menu-home {
     max-width: 100%;
+  }
+  .container-main{
+    max-width: 100%;
+
   }
 
   .container-home {
