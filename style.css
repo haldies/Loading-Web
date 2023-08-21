@@ -153,10 +153,11 @@ section {
 }
 
 .home {
-  height: 1425px;
+  height: 1625px;
 }
 
 .roadmap {
+  margin-top: 100px;
   height: 1300px;
 }
 
@@ -205,12 +206,13 @@ section {
 
 .container-home {
   width: 1120px;
-  height: 1100px;
+  height: 1179px;
   background-image: linear-gradient(90deg, rgba(238, 44, 130, 0.5) 30%, rgba(251, 105, 98, 0.5) 50%, rgba(254, 248, 76, 0.5) 100%);
 
 }
 
 .container-roadmap {
+
   width: 1120px;
   height: 900px;
   background-image: linear-gradient(90deg, rgba(238, 44, 130, 0.5) 30%, rgba(251, 105, 98, 0.5) 50%, rgba(254, 248, 76, 0.5) 100%);
@@ -244,7 +246,7 @@ section {
   color: #fff;
   text-align: center;
   margin-top: 80px;
-  
+
 
 }
 
@@ -280,7 +282,6 @@ section {
   }
 
   .container-home {
-    max-height: 800px;
     max-width: 100%;
   }
 
@@ -304,7 +305,8 @@ section {
     max-width: 100%;
 
   }
-  .sosials{
+
+  .sosials {
     margin-top: 80px;
   }
 
