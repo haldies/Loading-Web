@@ -277,48 +277,48 @@ section {
 
   .container-home {
     max-height: 800px;
-    max-width: 90%;
+    max-width: 80%;
   }
 
   .container-roadmap {
-    max-width: 90%;
+    max-width: 80%;
 
   }
 
   .container-whitepaper {
-    max-width: 90%;
+    max-width: 80%;
 
   }
 
   .container-tokenomics {
-    max-width: 90%;
+    max-width: 80%;
 
   }
 
   .container-sosials {
-    max-width: 90%;
+    max-width: 80%;
 
   }
 
   .home {
-    max-height: 625px;
+    height: 625px;
   }
 
   .roadmap {
-    max-height: 825px;
+    height: 825px;
   }
 
   .whitepaper {
-    max-height: 825px;
+    height: 825px;
   }
 
   .tokenomics {
-    max-height: 825px;
+    height: 825px;
 
   }
 
   .sosials {
-    max-height: 825px;
+    height: 825px;
 
   }
 
