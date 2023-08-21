@@ -9,6 +9,18 @@ document.addEventListener("DOMContentLoaded", function () {
     var contentWhitepaper = document.getElementById("whitepaper");
     var contentSosials = document.getElementById("sosials");
     var contentTokenomics = document.getElementById("tokenomics");
+    var btnEsc = document.getElementById("btn-esc");
+
+    btnEsc.addEventListener("click", function () {
+    loadingVideo.style.display = "none";
+    content.style.display = "flex";
+    video.style.display = "none";
+    contentHome.style.display = "flex";
+    contentRoadmap.style.display = "flex";
+    contentWhitepaper.style.display = "flex";
+    contentSosials.style.display = "flex";
+    contentTokenomics.style.display = "flex";
+    });
 
 
     clickToEnter.addEventListener("click", function () {

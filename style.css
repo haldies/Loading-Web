@@ -262,33 +262,33 @@ section {
     max-width: 100%;
   }
   .container-main{
-    max-width: 100%;
+    max-width: 90%;
 
 
   }
 
   .container-home {
     max-height: 800px;
-    max-width: 100%;
+    max-width: 90%;
   }
 
   .container-roadmap {
-    max-width: 100%;
+    max-width: 90%;
 
   }
 
   .container-whitepaper {
-    max-width: 100%;
+    max-width: 90%;
 
   }
 
   .container-tokenomics {
-    max-width: 100%;
+    max-width: 90%;
 
   }
 
   .container-sosials {
-    max-width: 100%;
+    max-width: 90%;
 
   }
 
