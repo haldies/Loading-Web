@@ -5,9 +5,6 @@
 html {
   scroll-behavior: smooth;
 }
-body{
-  width: 100%;
-}
 
 .bg-image {
   position: fixed;
@@ -234,7 +231,7 @@ section {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 100%;
+  max-width: 100%;
   height: 47px;
   background-color: #fc6ebc;
   color: #fff;
@@ -247,6 +244,9 @@ section {
 }
 
 @media screen and (max-width: 468px) {
+  body{
+    padding: 20px;
+  }
   .img-m {
     max-width: 80%;
     height: auto;
@@ -265,33 +265,33 @@ section {
     max-width: 100%;
   }
   .container-main{
-    max-width: 90%;
+    max-width: 100%;
 
 
   }
 
   .container-home {
     max-height: 800px;
-    max-width: 90%;
+    max-width: 100%;
   }
 
   .container-roadmap {
-    max-width: 90%;
+    max-width: 100%;
 
   }
 
   .container-whitepaper {
-    max-width: 90%;
+    max-width: 100%;
 
   }
 
   .container-tokenomics {
-    max-width: 90%;
+    max-width: 100%;
 
   }
 
   .container-sosials {
-    max-width: 90%;
+    max-width: 100%;
 
   }
 
