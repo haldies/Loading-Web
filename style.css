@@ -7,6 +7,9 @@
 html {
   scroll-behavior: smooth;
 }
+body{
+  overflow-x: hidden;
+}
 
 .bg-image {
   position: fixed;
